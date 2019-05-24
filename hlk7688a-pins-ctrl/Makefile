@@ -18,7 +18,7 @@ PKG_SOURCE_VERSION:=fc35371610c0a1e6a6a751bfe6c8b5ccff153651
 PKG_SOURCE_URL:=https://github.com/Tolmeros/hlk7688a-pins-ctrl.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
+PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 
 include $(INCLUDE_DIR)/package.mk
 
@@ -28,11 +28,11 @@ define Package/$(PKG_NAME)
 	SECTION:=hlk7688a
 	CATEGORY:=hlk7688a
 	SUBMENU:=Utilities
-	TITLE:=Utility to control the hlk7688a low-level hardware (pins assignment)
+	TITLE:=Control hlk7688a pins assignment
 endef
 
 define Package/$(PKG_NAME)/description
-Utility to control the Omega2's low-level hardware
+Utility to control the hlk7688a low-level hardware (pins assignment)
 endef
 
 
