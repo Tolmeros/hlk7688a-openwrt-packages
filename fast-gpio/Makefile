@@ -25,8 +25,8 @@ include $(INCLUDE_DIR)/uclibc++.mk
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
-	SECTION:=onion
-	CATEGORY:=Onion
+	SECTION:=hlk7688a
+	CATEGORY:=hlk7688a
 	SUBMENU:=Utilities
 	TITLE:=Tool to enable GPIO access and software PWM support
 	DEPENDS:=$(CXX_DEPENDS)
