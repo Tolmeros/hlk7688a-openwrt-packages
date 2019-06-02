@@ -35,8 +35,8 @@ Python module with object that implements SPI transactions
 endef
 
 define Package/python3-spidev
-	SECTION:=onion
-	CATEGORY:=Onion
+	SECTION:=hlk7688a
+	CATEGORY:=hlk7688a
 	SUBMENU:=Libraries
 	TITLE:=Python3 module with object that implements SPI transactions
 	DEPENDS:=+python3-base
