@@ -23,8 +23,8 @@ include $(INCLUDE_DIR)/package.mk
 
 # python module package
 define Package/python-spidev
-	SECTION:=onion
-	CATEGORY:=Onion
+	SECTION:=hlk7688a
+	CATEGORY:=hlk7688a
 	SUBMENU:=Libraries
 	TITLE:=Python module with object that implements SPI transactions
 	DEPENDS:=+python-base
